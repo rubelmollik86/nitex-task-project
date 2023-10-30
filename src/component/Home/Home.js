@@ -7,8 +7,6 @@ import FounderSection from "../Founder/Founder";
 import PressCoverage from "../PressCoverage/PressCoverage";
 import Testimonials from "../Testimonials/Testimonials";
 import Footer from "../Footer/Footer";
-import LoginForm from "../LoginPage/LoginPage";
-import SignupForm from "../SgnUpPage/SgnUpPage";
 
 const Home = () => {
   return (
@@ -21,8 +19,6 @@ const Home = () => {
       <PressCoverage />
       <Testimonials />
       <Footer />
-      <LoginForm />
-      <SignupForm/>
     </div>
   );
 };

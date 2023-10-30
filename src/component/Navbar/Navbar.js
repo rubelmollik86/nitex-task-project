@@ -1,8 +1,6 @@
 import React, { useState } from "react";
-import { Link, NavLink } from "react-router-dom"; // Import Link from react-router-dom
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
-import LoginForm from "../LoginPage/LoginPage";
 
 function Navbar() {
   const [isMenuOpen, setMenuOpen] = useState(false);
@@ -29,24 +27,24 @@ function Navbar() {
         {isMenuOpen || window.innerWidth > 768 ? (
           <ul className="md:flex md:space-x-4 md:flex-1 justify-center md:items-center">
             <li>
-              <Link to="/" className="hover:text-yellow-400">
+              <a href="/" className="hover:text-yellow-400">
                 Home
-              </Link>
+              </a>
             </li>
             <li>
-              <Link to="/about" className="hover:text-yellow-400">
+              <a href="/about" className="hover:text-yellow-400">
                 About
-              </Link>
+              </a>
             </li>
             <li>
-              <Link to="/service" className="hover:text-yellow-400">
+              <a href="/service" className="hover:text-yellow-400">
                 Service
-              </Link>
+              </a>
             </li>
             <li>
-              <Link to="/contact" className="hover:text-yellow-400">
+              <a href="/contact" className="hover:text-yellow-400">
                 Contact-Us
-              </Link>
+              </a>
             </li>
             {/* Add more navigation items */}
           </ul>
@@ -56,18 +54,14 @@ function Navbar() {
         {(isMenuOpen || window.innerWidth > 768) && (
           <div className="md:flex space-x-4 md:mt-0">
             <div className="flex justify-center">
-              <NavLink to="/login" className="hover:text-yellow-400">
-                {" "}
-                {LoginForm}
+              <a href="/login" className="hover:text-yellow-400">
                 Login
-              </NavLink>
+              </a>
             </div>
             <div className="flex justify-center">
-              <Link to="/signup" className="hover:text-yellow-400">
-                {" "}
-                {/* Link to Sign Up page */}
+              <a href="/signup" className="hover:text-yellow-400">
                 Sign Up
-              </Link>
+              </a>
             </div>
           </div>
         )}

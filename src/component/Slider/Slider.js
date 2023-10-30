@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import image1 from "../../Assets/silider-img/image-1.jpg";
 import image2 from "../../Assets/silider-img/image-2.jpg";
-import image3 from "../../Assets/silider-img/image-3.jpg";
+import image3 from "../../Assets/silider-img/image-4.jpg";
 
 const images = [image1, image2, image3];
 
