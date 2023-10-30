@@ -8,6 +8,7 @@ import ButterflySection from "./component/Butterfly/Butterfly";
 import OurPackges from "./component/OurPackges/OurPackges";
 import FounderSection from "./component/Founder/Founder";
 import PressCoverage from "./component/PressCoverage/PressCoverage";
+import Testimonials from "./component/Testimonials/Testimonials";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <OurPackges />
       <FounderSection />
       <PressCoverage />
+      <Testimonials />
       <Routes path="/" element={<Home />}>
         <Route />
       </Routes>
