@@ -5,6 +5,7 @@ import Home from "./component/Home/Home";
 import About from "./component/About/About";
 import Services from "./component/Services/Services";
 import ContactUs from "./component/ContactUs/ContactUs";
+import LoginForm from "./component/LoginPage/LoginPage";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/service" element={<Services />} />
         <Route path="/contact" element={< ContactUs />} />
+        <Route path="/login" element={< LoginForm />} />
       </Routes>
     </div>
   );
