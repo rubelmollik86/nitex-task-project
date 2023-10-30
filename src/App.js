@@ -6,6 +6,7 @@ import Home from "./component/Home/Home";
 import Slider from "./component/Slider/Slider";
 import ButterflySection from "./component/Butterfly/Butterfly";
 import OurPackges from "./component/OurPackges/OurPackges";
+import FounderSection from "./component/Founder/Founder";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Slider />
       <ButterflySection />
       <OurPackges />
+      <FounderSection/>
       <Routes path="/" element={<Home />}>
         <Route />
       </Routes>
