@@ -10,7 +10,7 @@ function Navbar() {
         {/* Navigation Items (Second Column) */}
         <ul className="flex space-x-4 md:flex-1 justify-center">
           <li>
-            <a href="/home" className="hover:text-yellow-400">
+            <a href="/" className="hover:text-yellow-400">
               Home
             </a>
           </li>
@@ -20,8 +20,8 @@ function Navbar() {
             </a>
           </li>
           <li>
-            <a href="/services" className="hover:text-yellow-400">
-              Services
+            <a href="/service" className="hover:text-yellow-400">
+              Service
             </a>
           </li>
           <li>
