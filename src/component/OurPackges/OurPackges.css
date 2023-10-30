@@ -5,7 +5,20 @@
 }
 
 .image-shadow {
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
     border-radius: 20px;
     
+}
+
+/* Set the image height to 600px for screens with a maximum width of 768px (typical small devices) */
+@media (max-width: 768px) {
+    .image-slide img {
+        height: 3800px;
+    }
+}
+
+@media (max-width: 900px) {
+    .image-slide img {
+        height: 700px;
+    }
 }

@@ -51,10 +51,10 @@ function OurPackages() {
           dynamicHeight={true}
           infiniteLoop={true}
           centerMode={true}
-          centerSlidePercentage={33.33}
+          centerSlidePercentage={100}
           emulateTouch={true}
           autoPlay={true}
-          interval={3000} // Time in milliseconds for auto sliding
+          interval={3000}
           showIndicators={false}
         >
           {images.map((image, index) => (
@@ -62,14 +62,13 @@ function OurPackages() {
               <img
                 src={image.src}
                 alt={image.title}
-                className="image-shadow mx-auto w-full sm:w-1/2 md:w-auto" // Set the width for different screen sizes
+                className="image-shadow mx-auto w-full image-slide img"
+                style={{ height: "600px" }} // Default width for larger screens
               />
               <p className="legend text-center">
-                {" "}
-                {/* Center align text */}
-                <strong>{image.title}</strong>
+                <h4 className="text-2xl">{image.title}</h4>
                 <br />
-                {image.description}
+                <span className="text-lg">{image.description}</span>
               </p>
             </div>
           ))}
