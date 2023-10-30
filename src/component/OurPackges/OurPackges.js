@@ -16,8 +16,23 @@ const images = [
   },
   {
     src: "slider-img/image-3.jpg",
-    title: "Image 2",
+    title: "Image 3",
     description: "Description for Image 3",
+  },
+  {
+    src: "slider-img/image-5.jpg",
+    title: "Image 4",
+    description: "Description for Image 4",
+  },
+  {
+    src: "slider-img/image-6.jpg",
+    title: "Image 5",
+    description: "Description for Image 5",
+  },
+  {
+    src: "slider-img/image-7.jpg",
+    title: "Image 6",
+    description: "Description for Image 6",
   },
   // Add more image objects as needed
 ];

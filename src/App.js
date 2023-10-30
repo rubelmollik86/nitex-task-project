@@ -9,6 +9,7 @@ import OurPackges from "./component/OurPackges/OurPackges";
 import FounderSection from "./component/Founder/Founder";
 import PressCoverage from "./component/PressCoverage/PressCoverage";
 import Testimonials from "./component/Testimonials/Testimonials";
+import Footer from "./component/Footer/Footer";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <FounderSection />
       <PressCoverage />
       <Testimonials />
+      <Footer />
       <Routes path="/" element={<Home />}>
         <Route />
       </Routes>
