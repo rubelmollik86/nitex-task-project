@@ -1,4 +1,5 @@
 import React from "react";
+import "./Butterfly.css";
 
 function ButterflySection() {
   return (
@@ -8,7 +9,7 @@ function ButterflySection() {
           <span className="mb-2 md:mb-0">It's a Big World Out There</span>
           <span className="text-orange-600 ml-2 md:ml-4">Go Explore</span>
         </h2>
-        <p className="text-lg text-center mt-2 md:mt-4">
+        <p className="text-lg text-center mt-2 md:mt-4 text-flow">
           She travels not just to see the world, but to discover the depths of
           her own strength, courage, and resilience. A ladies traveler embraces
           the unknown, finds solace in the unfamiliar, and creates her own

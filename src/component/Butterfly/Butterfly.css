@@ -1,0 +1,26 @@
+/* Add this to your CSS file */
+.text-flow {
+    animation: textFlowAnimation 4s linear infinite;
+}
+
+@keyframes textFlowAnimation {
+    0% {
+        transform: translateY(0);
+    }
+
+    25% {
+        transform: translateY(-10px);
+    }
+
+    50% {
+        transform: translateY(0);
+    }
+
+    75% {
+        transform: translateY(10px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}

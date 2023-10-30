@@ -14,6 +14,11 @@ const images = [
     title: "Image 2",
     description: "Description for Image 2",
   },
+  {
+    src: "slider-img/image-3.jpg",
+    title: "Image 2",
+    description: "Description for Image 3",
+  },
   // Add more image objects as needed
 ];
 

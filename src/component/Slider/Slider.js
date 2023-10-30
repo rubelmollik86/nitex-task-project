@@ -7,16 +7,16 @@ const images = [image1, image2, image3];
 
 const textData = [
   {
-    title: "Image 1",
-    description: "Description for Image 1",
+    title: "Big World Out There",
+    
   },
   {
-    title: "Image 2",
-    description: "Description for Image 2",
+    title: "Do the best you can until you know better",
+    
   },
   {
-    title: "Image 3",
-    description: "Description for Image 3",
+    title: "I do not know anyone who has got to the top without hard work",
+    
   },
 ];
 
@@ -45,7 +45,7 @@ function Slider() {
         <div className="w-full md:w-4/12 p-4">
           <h2 className="text-3xl font-bold">{textData[currentSlide].title}</h2>
           <p>{textData[currentSlide].description}</p>
-          <button className="bg-blue-600 text-white px-4 py-2 mt-4 rounded">
+          <button className="bg-orange-500 text-white text-xl px-4 py-2 mt-4 rounded-lg">
             Register
           </button>
         </div>
