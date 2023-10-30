@@ -3,27 +3,15 @@ import "./App.css";
 import Navbar from "./component/Navbar/Navbar";
 import { Route, Routes } from "react-router-dom";
 import Home from "./component/Home/Home";
-import Slider from "./component/Slider/Slider";
-import ButterflySection from "./component/Butterfly/Butterfly";
-import OurPackges from "./component/OurPackges/OurPackges";
-import FounderSection from "./component/Founder/Founder";
-import PressCoverage from "./component/PressCoverage/PressCoverage";
-import Testimonials from "./component/Testimonials/Testimonials";
-import Footer from "./component/Footer/Footer";
+
+import About from "./component/About/About";
 
 function App() {
   return (
     <div>
-      <Navbar />
-      <Slider />
-      <ButterflySection />
-      <OurPackges />
-      <FounderSection />
-      <PressCoverage />
-      <Testimonials />
-      <Footer />
-      <Routes path="/" element={<Home />}>
-        <Route />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
       </Routes>
     </div>
   );

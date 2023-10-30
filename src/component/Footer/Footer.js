@@ -1,4 +1,5 @@
 import React from "react";
+import './Footer.css'
 
 function Footer() {
   return (
@@ -34,7 +35,6 @@ function Footer() {
               <a href="/careers">Careers</a>
             </li>
           </ul>
-          
         </div>
 
         {/* Contact Us Column */}
@@ -66,7 +66,6 @@ function Footer() {
           </ul>
         </div>
       </div>
-
       
     </footer>
   );

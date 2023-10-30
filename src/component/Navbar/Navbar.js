@@ -10,18 +10,23 @@ function Navbar() {
         {/* Navigation Items (Second Column) */}
         <ul className="flex space-x-4 md:flex-1 justify-center">
           <li>
-            <a href="#home" className="hover:text-yellow-400">
+            <a href="/home" className="hover:text-yellow-400">
               Home
             </a>
           </li>
           <li>
-            <a href="#about" className="hover:text-yellow-400">
+            <a href="/about" className="hover:text-yellow-400">
               About
             </a>
           </li>
           <li>
-            <a href="#services" className="hover:text-yellow-400">
+            <a href="/services" className="hover:text-yellow-400">
               Services
+            </a>
+          </li>
+          <li>
+            <a href="/contact-us" className="hover:text-yellow-400">
+              Contact-Us
             </a>
           </li>
           {/* Add more navigation items */}
